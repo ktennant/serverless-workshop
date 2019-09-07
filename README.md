@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+### Clone this repo; obviously
+
+`git clone https://github.com/ktennant/serverless-workshop.git`
+
 ### Install Git
 
 `choco install git` for Windows or `brew install git` for Mac.
@@ -18,9 +22,12 @@ Postman or Insomnia are preferred.
 
 `brew cask install postman` or `brew cask install insomnia` for Mac.
 
-### Clone this repo
+### Install .Net Core Lambda Tools
 
-`git clone https://github.com/ktennant/serverless-workshop.git`
+```sh
+dotnet tool install -g Amazon.Lambda.Tools
+dotnet new -i "Amazon.Lambda.Templates::*"
+```
 
 ## Outline
 
