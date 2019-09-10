@@ -6,9 +6,7 @@
 
 `git clone https://github.com/ktennant/serverless-workshop.git`
 
-### Install Git
-
-`choco install git` for Windows or `brew install git` for Mac.
+> Git can be installed via the command line using `choco install git` for Windows or `brew install git` for Mac.
 
 ### Install latest versions of .Net Core SDK
 
@@ -31,6 +29,16 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 
 ## Outline
 
-TBD
+1. Up and Running
+1. Create a Web API
+1. BREAK
+1. Package code for deployment
+1. AWS Quick Tour
+1. Create serverless infrastructure with AWS console
+1. Lunch Break
+1. Testing and debugging serverless architecture
+1. Break
+1. Panel discussion
+1. Q and A
 
 [dotnet-install]: https://dotnet.microsoft.com/download
