@@ -8,9 +8,18 @@
 
 > Git can be installed via the command line using `choco install git` for Windows or `brew install git` for Mac.
 
+### Install Visual Studio or Visual Studio Code
+
+Examples will be done is VS Code; however, Visual Studio users will be just fine.
+
+[Download VS Code][download-vs-code]
+[Download Visual Studio][download-visual-studio]
+
 ### Install latest versions of .NET Core SDK
 
 If using Visual Studio, just make sure Visual Studio has latest updates; otherwise, [directly download the SDK][dotnet-install].
+
+Verify your install with `dotnet --info` from a command line.
 
 ### Install a REST Client
 
@@ -42,3 +51,5 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 1. Q and A
 
 [dotnet-install]: https://dotnet.microsoft.com/download
+[download-vs-code]: https://code.visualstudio.com/download
+[download-visual-studio]: https://visualstudio.microsoft.com/downloads/
