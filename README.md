@@ -2,13 +2,13 @@
 
 ## Getting Started
 
-### Clone this repo; obviously
+### Clone this repo
 
 `git clone https://github.com/ktennant/serverless-workshop.git`
 
 > Git can be installed via the command line using `choco install git` for Windows or `brew install git` for Mac.
 
-### Install latest versions of .Net Core SDK
+### Install latest versions of .NET Core SDK
 
 If using Visual Studio, just make sure Visual Studio has latest updates; otherwise, [directly download the SDK][dotnet-install].
 
@@ -20,7 +20,7 @@ Postman or Insomnia are preferred.
 
 `brew cask install postman` or `brew cask install insomnia` for Mac.
 
-### Install .Net Core Lambda Tools
+### Install .NET Core Lambda Tools
 
 ```sh
 dotnet tool install -g Amazon.Lambda.Tools
