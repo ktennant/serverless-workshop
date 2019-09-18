@@ -50,7 +50,20 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 1. Panel discussion
 1. Q and A
 
+## Useful Resources
+
+- [dotnet lambda tooling][dotnet-lambda-tooling]
+- [Serverless Code Patterns][serverless-code-patterns]
+- [Amazon.Lambda.AspNetCoreServer][lambda-aspnetcoreserver]
+- [Custom Authorizer Guide][custom-authorizer-guide]
+- [AWS Lambda .NET Learning Resources][aws-dotnet-resources]
+
 [dotnet-install]: https://dotnet.microsoft.com/download
 [download-vs-code]: https://code.visualstudio.com/download
 [download-visual-studio]: https://visualstudio.microsoft.com/downloads/
 [testing-tool]: http://hstream-serverless-workshop.s3-website-us-east-1.amazonaws.com/
+[dotnet-lambda-tooling]: https://github.com/aws/aws-extensions-for-dotnet-cli
+[serverless-code-patterns]: https://serverless.com/blog/serverless-architecture-code-patterns/
+[lambda-aspnetcoreserver]: https://github.com/aws/aws-lambda-dotnet/blob/master/Libraries/src/Amazon.Lambda.AspNetCoreServer/README.md
+[custom-authorizer-guide]: https://www.alexdebrie.com/posts/lambda-custom-authorizers/
+[aws-dotnet-resources]: https://github.com/aws/aws-lambda-dotnet#learning-resources
