@@ -32,7 +32,7 @@ Postman or Insomnia are preferred.
 ### Install .NET Core Lambda Tools
 
 ```sh
-dotnet tool install -g Amazon.Lambda.Tools
+dotnet tool install --global Amazon.Lambda.Tools --version 3.3.1
 dotnet new -i "Amazon.Lambda.Templates::*"
 ```
 
@@ -45,7 +45,7 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 1. AWS Quick Tour
 1. Create serverless infrastructure with AWS console
 1. Lunch Break
-1. Testing and debugging serverless architecture
+1. [Testing][testing-tool] and debugging serverless architecture
 1. Break
 1. Panel discussion
 1. Q and A
@@ -53,3 +53,4 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 [dotnet-install]: https://dotnet.microsoft.com/download
 [download-vs-code]: https://code.visualstudio.com/download
 [download-visual-studio]: https://visualstudio.microsoft.com/downloads/
+[testing-tool]: http://hstream-serverless-workshop.s3-website-us-east-1.amazonaws.com/
