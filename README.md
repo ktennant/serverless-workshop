@@ -1,7 +1,5 @@
 # Serverless Workshop
 
-https://hs-training-sbx.signin.aws.amazon.com/console
-
 ## Getting Started
 
 ### Clone this repo
@@ -59,6 +57,7 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 - [Amazon.Lambda.AspNetCoreServer][lambda-aspnetcoreserver]
 - [Custom Authorizer Guide][custom-authorizer-guide]
 - [AWS Lambda .NET Learning Resources][aws-dotnet-resources]
+- https://hs-training-sbx.signin.aws.amazon.com/console
 
 [dotnet-install]: https://dotnet.microsoft.com/download
 [download-vs-code]: https://code.visualstudio.com/download
