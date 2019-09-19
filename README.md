@@ -1,5 +1,7 @@
 # Serverless Workshop
 
+https://hs-training-sbx.signin.aws.amazon.com/console
+
 ## Getting Started
 
 ### Clone this repo
