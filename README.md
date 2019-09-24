@@ -68,7 +68,7 @@ Verify install with `dotnet new --list`. You should see several `serverless.*` t
 - [Amazon.Lambda.AspNetCoreServer][lambda-aspnetcoreserver]
 - [Custom Authorizer Guide][custom-authorizer-guide]
 - [AWS Lambda .NET Learning Resources][aws-dotnet-resources]
-- https://hs-training-sbx.signin.aws.amazon.com/console
+- [AWS Console][aws-console]
 
 [dotnet-install]: https://dotnet.microsoft.com/download
 [download-vs-code]: https://code.visualstudio.com/download
@@ -81,3 +81,4 @@ Verify install with `dotnet new --list`. You should see several `serverless.*` t
 [aws-dotnet-resources]: https://github.com/aws/aws-lambda-dotnet#learning-resources
 [postman-download]: https://www.getpostman.com/downloads/
 [insomnia-download]: https://insomnia.rest/download/
+[aws-console]: https://hs-training-sbx.signin.aws.amazon.com/console
