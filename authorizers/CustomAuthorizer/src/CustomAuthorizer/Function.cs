@@ -39,7 +39,7 @@ namespace CustomAuthorizer
                         new {
                             Action = "execute-api:Invoke",
                             Effect = "Allow",
-                            Resource = "arn:aws:execute-api:*:325090237772:*"
+                            Resource = "arn:aws:execute-api:*:*:*"
                         }
                     }
                 }
