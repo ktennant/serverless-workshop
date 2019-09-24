@@ -23,7 +23,7 @@ Verify your install with `dotnet --info` from a command line.
 
 ### Install a REST Client
 
-Postman or Insomnia are preferred.
+Download either [Postman][postman-download] or [Insomnia][insomnia-download]; or install with a terminal.
 
 `choco install postman` or `choco install insomnia-rest-api-client` for Windows.
 
@@ -33,8 +33,19 @@ Postman or Insomnia are preferred.
 
 ```sh
 dotnet tool install --global Amazon.Lambda.Tools --version 3.3.1
+```
+
+Verify install with `dotnet lambda`. This should print the help documentation.
+
+> Note: Path issues can be resolved by restarting your terminal.
+
+### Install .NET Core Lambda Blueprint Templates
+
+```sh
 dotnet new -i "Amazon.Lambda.Templates::*"
 ```
+
+Verify install with `dotnet new --list`. You should see several `serverless.*` templates.
 
 ## Outline
 
@@ -68,3 +79,5 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 [lambda-aspnetcoreserver]: https://github.com/aws/aws-lambda-dotnet/blob/master/Libraries/src/Amazon.Lambda.AspNetCoreServer/README.md
 [custom-authorizer-guide]: https://www.alexdebrie.com/posts/lambda-custom-authorizers/
 [aws-dotnet-resources]: https://github.com/aws/aws-lambda-dotnet#learning-resources
+[postman-download]: https://www.getpostman.com/downloads/
+[insomnia-download]: https://insomnia.rest/download/
